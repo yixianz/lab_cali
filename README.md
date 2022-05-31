@@ -7,4 +7,4 @@ Here is a list of procedures/scripts:
 * `eventdata_spectra.pro` and `eventdata_spectra_channel.pro`: (functions written by Athiray; used in code_for_zach.pro) Generate a data structure for all good events in energy space or channel space, which contains the all-strip energy/ADC information for each event. Also count the numbers of single-strip, double-strip, all, and CSA (double strip events summed) events.
 * `makehist_from4file.pro`: combine spectra.
 * `makeSAV.pro`: find peaks in the combined spectra and produce the calibration file `zackPeaks.sav`.
-* `calspec2022.pro`: similar to `calspec.pro` in calsoft collection but uses cubic interpolation instead if spline.
+* `calspec2022.pro`: similar to `calspec.pro` in calsoft collection but uses cubic interpolation instead of spline.
